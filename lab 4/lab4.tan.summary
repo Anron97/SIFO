@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.382 ns
+From           : INPUT_DATA[3]
+To             : lpm_latch2:inst|lpm_latch:lpm_latch_component|latches[3]
+From Clock     : --
+To Clock       : gate
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.232 ns
+From           : lpm_latch2:inst|lpm_latch:lpm_latch_component|latches[3]
+To             : OUT_DATA[3]
+From Clock     : gate
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -2.591 ns
+From           : INPUT_DATA[0]
+To             : lpm_latch2:inst|lpm_latch:lpm_latch_component|latches[0]
+From Clock     : --
+To Clock       : gate
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

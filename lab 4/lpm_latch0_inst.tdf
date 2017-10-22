@@ -1,0 +1,9 @@
+(
+	q_sig[]
+) = lpm_latch0	(
+	.data[] = data_sig[],
+	.gate = gate_sig
+)
+RETURNS (
+	.q[]
+);
